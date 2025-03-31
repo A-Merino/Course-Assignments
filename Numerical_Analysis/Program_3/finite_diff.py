@@ -1,7 +1,7 @@
 import numpy as np
 import scipy as sc
 
-def finite_diff():
+def finite_diff(L, h, z, b0, bn):
     '''
         This function is an implemented version of
         the finite difference method to solve second
@@ -14,9 +14,10 @@ def finite_diff():
         -------
     '''
 
-    A = createA()
+    N = int(L/h)
 
-    B = createB()
+    A = createA([1, -2], N)
+    B = createB(poisson_boltz, h, L, z, b0, bn)
 
     y = sc.linalg.solve(A, B) # Maybe???
 
@@ -47,13 +48,19 @@ def createA(diags, n):
     '''
 
     # diags function from numpy
-    return np.diags(diags, size=n)
+    off_d = np.diag(diags[0] * np.ones(n - 1), k=1)
+    off_d = off_d + off_d.T
+
+    diag = np.diag(diags[1] * np.ones(n))
+
+    return off_d + diag
+
 
 def createB(func, h, L, z, b0, bn):
     '''
         Function that creates the vector B which is used in the
-        numerical methods of finite difference and finite element
-        specifically with the poisson_boltz equation
+        numerical method of finite difference specifically with
+        the poisson_boltz equation
 
         Parameters
         ----------
@@ -79,7 +86,6 @@ def createB(func, h, L, z, b0, bn):
             bn: int, float
                 The value of the function at time L
 
-
         Returns
         -------
 
@@ -90,14 +96,14 @@ def createB(func, h, L, z, b0, bn):
     '''
 
     # create t values we want to calculate at
-    ts = np.linspace(0,L,h)
-    
-    # Init vector B
-    B = np.zeros(len(ts))
+    ts = np.round(np.linspace(0, L,int(L / h)), 2)
 
-    # If the function then calculate it
-    if func != 0:
-        B = np.array(func(ts ,z, h))
+    # Create vector B
+    B = np.array(func(ts ,z, h))
+
+    # Boundary Conditions
+    B[0] = b0
+    B[-1] = bn
 
     return B
 
@@ -133,7 +139,7 @@ def capacitence(sigma, v):
         ---------
             sigma: function ???
 
-            v: int, float
+            v: int, float, array_like
                 The voltage of the capacitor
 
         Returns
@@ -143,4 +149,5 @@ def capacitence(sigma, v):
     '''
 
     # Equation of Capacitence
+
     return sigma / v
