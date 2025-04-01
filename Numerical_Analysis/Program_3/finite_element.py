@@ -49,7 +49,7 @@ def beta(h, z):
     return (1 / h) - (2 * (z ** 2) * h / 6)
 
 
-def createB(h, L, z, b0, bn, beta):
+def createB(L, h, z, b0, bn, beta):
     '''
         Function that creates the vector B which is used in the
         numerical methods of finite difference and finite element
@@ -58,12 +58,12 @@ def createB(h, L, z, b0, bn, beta):
         Parameters
         ----------
 
+            L: int, float
+                The time at the boundary of diffEq
+
             h: int, float
                 The step size that is being used in the
                 numerical method.
-
-            L: int, float
-                The time at the boundary of pde
 
             z: int
                 The valence of the ion types
@@ -105,19 +105,20 @@ def finite_element(L, h, z, b0, bn):
         for the Poisson-Boltzmann equation. 
     '''
 
+    # init number of steps
     N = int(L / h)
 
+    # Calculate alpha and beta
     alph = alpha(h, z)
     bet = beta(h, z)
     
-    print(alph, bet)
+    # Create the A matrix for finite element of size N
+    A = fd.createA([bet, -1 * alph, bet], N) 
 
-    diag = [bet, -1 * alph, bet]
+    # Create the B vector
+    B = createB(L, h, z, b0, bn, bet)
 
-    A = fd.createA(diag, N) 
-    B = createB(h, L, z, b0, bn, bet)
-
+    # Solve
     y = sc.linalg.solve(A, B)
 
     return y
-
