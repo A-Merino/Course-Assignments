@@ -5,7 +5,7 @@ import scipy as sc
 import matplotlib.pyplot as plt
 
 
-def startMethod(L, h, z, phi_0, Vs, method = "f_diff", same_plot=False):
+def startMethod(L, h, z, phi_0, Vs, method = "f_diff", same_plot = False):
     '''
         Function that runs the chosen finite method for evaluating unique
         boundary problems of differential equations
@@ -54,7 +54,7 @@ def startMethod(L, h, z, phi_0, Vs, method = "f_diff", same_plot=False):
         capacity = fd.capacitence(np.array([y[1] / h for y in y_v]), Vs)
         
         # Plot curves
-        plotCurves(y_v, capacity, L, h, many=same_plot)
+        plotCurves(y_v, capacity, Vs, L, h, many=same_plot)
 
     # Finite Element Method
     elif method == 'f_elem':
@@ -66,13 +66,13 @@ def startMethod(L, h, z, phi_0, Vs, method = "f_diff", same_plot=False):
         capacity = fd.capacitence(np.array([y[1] / h for y in y_v]), Vs)
 
         # Plot curves
-        plotCurves(y_v, capacity, L, h, many=same_plot)
+        plotCurves(y_v, capacity, Vs, L, h, many=same_plot)
 
     else:
         raise Exception("Method given not correct")
 
 
-def plotCurves(phi_x, c_v, L, h, many=False):
+def plotCurves(phi_x, c_v, Vs, L, h, many=False):
     '''
         Function that plots given curves
 
@@ -85,6 +85,10 @@ def plotCurves(phi_x, c_v, L, h, many=False):
             c_v: array_like
                 The capacities of the capacitator
                 given a Voltage
+
+            Vs: int, float
+                The value of the function at time L
+                for different voltages, V
             
             L: int, float
                 The time at the boundary of diffEq
@@ -115,10 +119,12 @@ def plotCurves(phi_x, c_v, L, h, many=False):
     else:
 
         # Plot 1 and show 
-        for y, c in zip(phi_x, c_v):
+        for y, c, v in zip(phi_x, c_v, Vs):
             print(c)
+            plt.title(f"Phi(x) with Voltage {v}")
             plt.plot(np.round(np.linspace(0, L,int(L / h)), 2), y)
-            plt.plot([0,L], [c,c])
+            plt.plot([0,L], [c,c], label=f'Capacity: {c}')
+            plt.legend()
             plt.show()
     
 
