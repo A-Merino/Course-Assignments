@@ -1,0 +1,65 @@
+0	A	N	N	|	N	N	N	N
+0	B	N	N	|	N	N	N	N
+0	C	N	N	|	N	N	N	N
+0	D	D	0	|	N	N	N	0
+
+1	A	N	N	|	N	N	N	N
+1	B	N	N	|	N	N	N	N
+1	C	N	N	|	N	N	0	N
+1	D	D	0	|	N	N	N	0
+
+2	A	N	N	|	N	N	N	N
+2	B	N	N	|	N	N	N	N
+2	C	C	3	|	N	N	0	N
+2	D	D	0	|	N	N	3	0
+
+3	A	N	N	|	N	N	N	N
+3	B	N	N	|	N	N	N	N
+3	C	C	3	|	9	4	0	3
+3	D	D	0	|	N	N	3	0
+
+4	A	C	12	|	N	N	N	N
+4	B	C	7	|	N	N	N	N
+4	C	C	3	|	9	4	0	3
+4	D	D	0	|	12	7	3	0
+
+5	A	C	12	|	N	N	N	N
+5	B	C	7	|	N	N	N	N
+5	C	C	3	|	6	4	0	3
+5	D	D	0	|	12	7	3	0
+
+6	A	C	9	|	N	N	N	N
+6	B	C	7	|	N	N	N	N
+6	C	C	3	|	6	4	0	3
+6	D	D	0	|	9	7	3	0
+
+7	A	C	9	|	N	N	N	N
+7	B	C	7	|	N	N	N	N
+7	C	C	3	|	6	4	0	3
+7	D	D	0	|	9	7	3	0
+
+8	A	C	9	|	N	N	N	N
+8	B	C	7	|	N	N	N	N
+8	C	C	3	|	6	4	0	3
+8	D	D	0	|	9	7	3	0
+
+9	A	C	9	|	N	N	N	N
+9	B	C	7	|	N	N	N	N
+9	C	C	3	|	6	4	0	3
+9	D	D	0	|	9	7	3	0
+
+10	A	C	9	|	N	N	N	N
+10	B	C	7	|	N	N	N	N
+10	C	C	3	|	6	4	0	3
+10	D	D	0	|	9	7	3	0
+
+11	A	C	9	|	N	N	N	N
+11	B	C	7	|	N	N	N	N
+11	C	C	3	|	6	4	0	3
+11	D	D	0	|	9	7	3	0
+
+12	A	C	9	|	N	N	N	N
+12	B	C	7	|	N	N	N	N
+12	C	C	3	|	6	4	0	3
+12	D	D	0	|	9	7	3	0
+

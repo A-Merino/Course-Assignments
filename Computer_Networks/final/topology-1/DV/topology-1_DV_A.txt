@@ -1,0 +1,168 @@
+0	A	A	0	|	0	N	N	N	N	N	N
+0	B	N	N	|	N	N	N	N	N	N	N
+0	C	N	N	|	N	N	N	N	N	N	N
+0	D	N	N	|	N	N	N	N	N	N	N
+0	E	N	N	|	N	N	N	N	N	N	N
+0	F	N	N	|	N	N	N	N	N	N	N
+0	G	N	N	|	N	N	N	N	N	N	N
+
+1	A	A	0	|	0	N	N	N	N	N	N
+1	B	N	N	|	N	0	N	N	N	N	N
+1	C	N	N	|	N	N	0	N	N	N	N
+1	D	N	N	|	N	N	N	N	N	N	N
+1	E	N	N	|	N	N	N	N	N	N	N
+1	F	N	N	|	N	N	N	N	N	N	N
+1	G	N	N	|	N	N	N	N	N	N	N
+
+2	A	A	0	|	0	4	6	N	N	N	N
+2	B	B	4	|	N	0	N	N	N	N	N
+2	C	C	6	|	N	N	0	N	N	N	N
+2	D	N	N	|	N	N	N	N	N	N	N
+2	E	N	N	|	N	N	N	N	N	N	N
+2	F	N	N	|	N	N	N	N	N	N	N
+2	G	N	N	|	N	N	N	N	N	N	N
+
+3	A	A	0	|	0	4	6	N	N	N	N
+3	B	B	4	|	4	0	1	5	N	N	N
+3	C	C	6	|	6	1	0	8	4	N	N
+3	D	N	N	|	N	N	N	N	N	N	N
+3	E	N	N	|	N	N	N	N	N	N	N
+3	F	N	N	|	N	N	N	N	N	N	N
+3	G	N	N	|	N	N	N	N	N	N	N
+
+4	A	A	0	|	0	4	5	9	10	N	N
+4	B	B	4	|	4	0	1	5	N	N	N
+4	C	B	5	|	6	1	0	8	4	N	N
+4	D	B	9	|	N	N	N	N	N	N	N
+4	E	C	10	|	N	N	N	N	N	N	N
+4	F	N	N	|	N	N	N	N	N	N	N
+4	G	N	N	|	N	N	N	N	N	N	N
+
+5	A	A	0	|	0	4	5	9	10	N	N
+5	B	B	4	|	4	0	1	5	5	20	N
+5	C	B	5	|	5	1	0	6	4	23	6
+5	D	B	9	|	N	N	N	N	N	N	N
+5	E	C	10	|	N	N	N	N	N	N	N
+5	F	N	N	|	N	N	N	N	N	N	N
+5	G	N	N	|	N	N	N	N	N	N	N
+
+6	A	A	0	|	0	4	5	9	9	24	12
+6	B	B	4	|	4	0	1	5	5	20	N
+6	C	B	5	|	5	1	0	6	4	23	6
+6	D	B	9	|	N	N	N	N	N	N	N
+6	E	B	9	|	N	N	N	N	N	N	N
+6	F	B	24	|	N	N	N	N	N	N	N
+6	G	C	12	|	N	N	N	N	N	N	N
+
+7	A	A	0	|	0	4	5	9	9	24	12
+7	B	B	4	|	4	0	4	5	5	20	7
+7	C	B	5	|	5	4	0	6	4	12	6
+7	D	B	9	|	N	N	N	N	N	N	N
+7	E	B	9	|	N	N	N	N	N	N	N
+7	F	B	24	|	N	N	N	N	N	N	N
+7	G	C	12	|	N	N	N	N	N	N	N
+
+8	A	A	0	|	0	4	6	9	9	18	11
+8	B	B	4	|	4	0	4	5	5	20	7
+8	C	C	6	|	5	4	0	6	4	12	6
+8	D	B	9	|	N	N	N	N	N	N	N
+8	E	B	9	|	N	N	N	N	N	N	N
+8	F	C	18	|	N	N	N	N	N	N	N
+8	G	B	11	|	N	N	N	N	N	N	N
+
+9	A	A	0	|	0	4	6	9	9	18	11
+9	B	B	4	|	4	0	4	5	8	16	10
+9	C	C	6	|	6	4	0	8	4	12	6
+9	D	B	9	|	N	N	N	N	N	N	N
+9	E	B	9	|	N	N	N	N	N	N	N
+9	F	C	18	|	N	N	N	N	N	N	N
+9	G	B	11	|	N	N	N	N	N	N	N
+
+10	A	A	0	|	0	4	6	9	10	18	12
+10	B	B	4	|	4	0	4	5	8	16	10
+10	C	C	6	|	6	4	0	8	4	12	6
+10	D	B	9	|	N	N	N	N	N	N	N
+10	E	C	10	|	N	N	N	N	N	N	N
+10	F	C	18	|	N	N	N	N	N	N	N
+10	G	C	12	|	N	N	N	N	N	N	N
+
+11	A	A	0	|	0	4	6	9	10	18	12
+11	B	B	4	|	4	0	4	5	8	16	10
+11	C	C	6	|	6	4	0	8	4	12	6
+11	D	B	9	|	N	N	N	N	N	N	N
+11	E	C	10	|	N	N	N	N	N	N	N
+11	F	C	18	|	N	N	N	N	N	N	N
+11	G	C	12	|	N	N	N	N	N	N	N
+
+12	A	A	0	|	0	4	6	9	10	18	12
+12	B	B	4	|	4	0	4	5	8	16	10
+12	C	C	6	|	6	4	0	8	4	12	6
+12	D	B	9	|	N	N	N	N	N	N	N
+12	E	C	10	|	N	N	N	N	N	N	N
+12	F	C	18	|	N	N	N	N	N	N	N
+12	G	C	12	|	N	N	N	N	N	N	N
+
+13	A	A	0	|	0	4	6	9	10	18	12
+13	B	B	4	|	4	0	4	5	8	16	10
+13	C	C	6	|	6	4	0	8	4	12	6
+13	D	B	9	|	N	N	N	N	N	N	N
+13	E	C	10	|	N	N	N	N	N	N	N
+13	F	C	18	|	N	N	N	N	N	N	N
+13	G	C	12	|	N	N	N	N	N	N	N
+
+14	A	A	0	|	0	4	6	9	10	18	12
+14	B	B	4	|	4	0	4	5	8	16	10
+14	C	C	6	|	6	4	0	8	4	12	6
+14	D	B	9	|	N	N	N	N	N	N	N
+14	E	C	10	|	N	N	N	N	N	N	N
+14	F	C	18	|	N	N	N	N	N	N	N
+14	G	C	12	|	N	N	N	N	N	N	N
+
+15	A	A	0	|	0	4	6	9	10	18	12
+15	B	B	4	|	4	0	4	5	8	16	10
+15	C	C	6	|	6	4	0	8	4	12	6
+15	D	B	9	|	N	N	N	N	N	N	N
+15	E	C	10	|	N	N	N	N	N	N	N
+15	F	C	18	|	N	N	N	N	N	N	N
+15	G	C	12	|	N	N	N	N	N	N	N
+
+16	A	A	0	|	0	4	6	9	10	18	12
+16	B	B	4	|	4	0	4	5	8	16	10
+16	C	C	6	|	6	4	0	8	4	12	6
+16	D	B	9	|	N	N	N	N	N	N	N
+16	E	C	10	|	N	N	N	N	N	N	N
+16	F	C	18	|	N	N	N	N	N	N	N
+16	G	C	12	|	N	N	N	N	N	N	N
+
+17	A	A	0	|	0	4	6	9	10	18	12
+17	B	B	4	|	4	0	4	5	8	16	10
+17	C	C	6	|	6	4	0	8	4	12	6
+17	D	B	9	|	N	N	N	N	N	N	N
+17	E	C	10	|	N	N	N	N	N	N	N
+17	F	C	18	|	N	N	N	N	N	N	N
+17	G	C	12	|	N	N	N	N	N	N	N
+
+18	A	A	0	|	0	4	6	9	10	18	12
+18	B	B	4	|	4	0	4	5	8	16	10
+18	C	C	6	|	6	4	0	8	4	12	6
+18	D	B	9	|	N	N	N	N	N	N	N
+18	E	C	10	|	N	N	N	N	N	N	N
+18	F	C	18	|	N	N	N	N	N	N	N
+18	G	C	12	|	N	N	N	N	N	N	N
+
+19	A	A	0	|	0	4	6	9	10	18	12
+19	B	B	4	|	4	0	4	5	8	16	10
+19	C	C	6	|	6	4	0	8	4	12	6
+19	D	B	9	|	N	N	N	N	N	N	N
+19	E	C	10	|	N	N	N	N	N	N	N
+19	F	C	18	|	N	N	N	N	N	N	N
+19	G	C	12	|	N	N	N	N	N	N	N
+
+20	A	A	0	|	0	4	6	9	10	18	12
+20	B	B	4	|	4	0	4	5	8	16	10
+20	C	C	6	|	6	4	0	8	4	12	6
+20	D	B	9	|	N	N	N	N	N	N	N
+20	E	C	10	|	N	N	N	N	N	N	N
+20	F	C	18	|	N	N	N	N	N	N	N
+20	G	C	12	|	N	N	N	N	N	N	N
+

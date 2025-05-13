@@ -1,0 +1,16 @@
+0	|	G	0	G
+0	|	E	2	E
+0	|	F	6	F
+0	|	C	6	E, C
+0	|	B	7	E, C, B
+0	|	A	11	E, C, B, A
+0	|	D	12	E, D
+
+6	|	G	0	G
+6	|	E	2	E
+6	|	F	6	F
+6	|	C	6	E, C
+6	|	D	7	E, D
+6	|	B	10	E, C, B
+6	|	A	12	E, C, A
+
