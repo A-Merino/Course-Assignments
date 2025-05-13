@@ -1,0 +1,17 @@
+PrintSkipList
+AddActivity 0101 Reboot
+AddActivity 0107 AllServersActive
+AddActivity 0118 LoginRequestFromUser0101
+AddActivity 0124 LoginRequestFromUser0000
+DisplayAllActivities 
+DisplayActivity 0124 
+DeleteActivity 0124
+DisplayActivitiesFromStartTime 0101 
+AddActivity 0120 AdminUserSessionStarted
+AddActivity 0220 AdminUserSessionEnded
+DisplayActivitiesBetweenTimes 0105 0218
+AddActivity 0200 LoginRequestFromUser10FA
+AddActivity 0313 LogoutRequestFromUser0000
+DisplayActivitiesToEndTime 0401
+PrintSkipList
+

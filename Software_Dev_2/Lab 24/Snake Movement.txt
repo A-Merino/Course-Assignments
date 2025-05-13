@@ -1,0 +1,38 @@
+To start you need to import this class first if you havent already
+import java.awt.event.KeyEvent;
+https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/java/awt/event/KeyEvent.html
+
+
+The class holds mainly all of the integer values of the keys instead of typing 119 each time, which makes it easier
+For arrow keys the names are:
+   VK_DOWN
+   VK_UP
+   VK_RIGHT
+   VK_LEFT
+For WASD:
+   VK_W
+   VK_A
+   VK_S
+   VK_D
+
+The way I implemented it was using a while loop that would check for all possiblities each time the snake moved:
+   Was a key pressed and was it a legal key press? (cant go directly up if youre going down)
+      Change the direction if so
+   Once that is determined move the snake one spot in that direction
+
+      Now that the snake moved check to see if it went over the spot that the apple/food is in
+         if it did grow the snake one (let the last unit stay where it is)
+            Also need to make a new apple now
+               Use a randomizer (I used Math.random())
+               Make sure the apple isn't placed where the snake is
+         if it didn't keep the snake the same length
+   Then check to see if the snake dead
+      If it went out of bounds/if it hit itself
+         Game is over
+         I used a boolean which controlled the while loop
+            while (isAlive) {}
+
+
+The way I implemented the snake was an ArrayList of a class i made which held two doubles which were the x and y coordinates
+
+

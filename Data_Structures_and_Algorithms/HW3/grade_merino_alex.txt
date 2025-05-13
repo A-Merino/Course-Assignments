@@ -1,0 +1,32 @@
+Assignment: HW3
+
+* Rubric:
+
++-------------------------------+-----+
+| Logic (50)                    |  45 |
+| Test Cases (30)               |  23 |
+| Compilation/Runtime (10)      |   9 |
+| Documentation (10)            |  10 |
++-------------------------------+-----+
+| Total (100)                   |  87 |
+| Number of days late           |   0 |
+| Total with late penalty       |  87 |
++-------------------------------+-----+
+| Group Help improvement        |   0 |
+| # of days late for Group Help |   0 |
+| Improvement with late penalty |   0 |
++-------------------------------+-----+
+| Final Total (100)             |  87 |
++-------------------------------+-----+
+
+* Comments: 
+
+Logic: IsSupercategory does not always give correct answer when the root is the supercategory.
+       Program has runtime errors when ClosestCommonSupercategory has the root node as one of its inputs.
+
+Test Cases: Incorrect output due to above issues.
+
+Compilation/Runtime: Runtime errors in some cases.
+
+Documentation: good
+

@@ -1,0 +1,15 @@
+AddFriendship Gareth Donny
+RemoveFriendship Bev Donny NoFriendshipError
+RemoveFriendship Max Oscar
+WantToBefriend Pippa Oscar
+Sorry, none of your friends can help introduce you to Oscar.
+AddFriendship Oscar Lily
+WantToBefriend Pippa Oscar
+-Length of shortest path: 3
+-Your intermediate friend is Max.
+-Path: Pippa Max Lily Oscar
+AddFriendship Oscar Pippa
+WantToBefriend Pippa Kevin
+-Length of shortest path: 8
+-Your intermediate friend is Max.
+-Path: Pippa Max Faith Charlie Bev Henry Ike Jay Kevin

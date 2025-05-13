@@ -1,0 +1,31 @@
+Assignment: HW2
+
+* Rubric:
+
++-------------------------------+-----+
+| Logic (35)                    |  35 |
+| Test Cases (21)               |  21 |
+| Compilation/Runtime (7)       |   7 |
+| Documentation (7)             |   7 |
++-------------------------------+-----+
+| Total (70)                    |  70 |
+| Number of days late           |   0 |
+| Total with late penalty       |  70 |
++-------------------------------+-----+
+| Group Help improvement        |   0 |
+| # of days late for Group Help |   0 |
+| Improvement with late penalty |   0 |
++-------------------------------+-----+
+| Final Total (70)              |  70 |
++-------------------------------+-----+
+
+* Comments: 
+
+Logic: good
+
+Test Cases: no issues
+
+Compilation/Runtime: good
+
+Documentation: good
+

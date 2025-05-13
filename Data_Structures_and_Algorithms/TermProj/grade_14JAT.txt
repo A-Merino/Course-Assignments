@@ -1,0 +1,24 @@
+Accuracy (10): 9.8
+Score (10):    8.8
+late penalty:  ---
+----------------------
+Total (20):   18.6
+
+
+
+Accuracy
+a. group:            79.35
+b. average in class: 56.38
+c. highest in class: 81.08
+	
+Score
+a. group:             717.27
+b. average in class:  345.50
+c. highest in class: 1771.38
+
+
+Comments:
+
+	The best nodes are stored for each node in the tree, as well as the full word (if relevant). This, of course takes up a lot of space. The trade-off for space and time here could improve your score.
+	In some cases, you are not utilizing all 5 of your guesses. Finding a way to guess something could improve your accuracy. Try using the phrase you have so far, and adding words that may be closely tied to one of the words you already have
+	To reduce memory you may try to use smaller datatypes. For example, integers take up 4 bytes, whereas shorts take up less. You could also look into storing unsigned numbers, assuming your frequency does not go below 0 for some reason.

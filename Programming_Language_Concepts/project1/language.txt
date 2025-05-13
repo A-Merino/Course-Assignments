@@ -1,0 +1,9 @@
+The language that we chose was Fortran. In Fortran, there are no parenthesis or brackets to denote an if statement or loops, instead, there is the 'then' keyword for if statements and the 'end' keyword for ending of loops, if statements, functions, etc.
+
+To begin our program, we utilized the 'allocate' keyword which allows us to allocate an empty array of size N. This is followed up by an in-line for loop which is an easy way to simplify writing a for/do loop. 
+
+We then use a branching statement called 'select case', which is similar to the switch function in Java or C++. The 'select case' allows for a list of cases, where we can branch from the main program to subprograms. 
+
+Functions in Fortran are called 'subroutines', which we utilized in our solution. After using the switch case, we go into the specified subroutine where we can execute the parts of the code that correspond to the case given. Each subroutine is put on the execution stack through the keyword 'call', which lets the program know which line of code to jump to. 
+
+In all of the subroutines we utilize the 'do' keyword which allows us to implement for and while loops. The syntax for do contains a variable set to an integer, the max integer desired, and an optional step variable. The default step is set to 1.  

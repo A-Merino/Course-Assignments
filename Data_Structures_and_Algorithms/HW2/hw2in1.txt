@@ -1,0 +1,5 @@
+4
+PackingStation 10 10
+Books 15 4
+Electronics 5 5
+SportsEquipment 3 20

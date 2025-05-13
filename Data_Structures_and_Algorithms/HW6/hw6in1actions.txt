@@ -1,0 +1,7 @@
+AddFriendship Ben Felix
+AddFriendship Kora Ben
+RemoveFriendship Fabrice Cole
+RemoveFriendship Laura Fabrice
+WantToBefriend Ben Laura
+AddFriendship Fabrice Ben
+WantToBefriend Fabrice Cole

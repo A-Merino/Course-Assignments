@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<settings>
+		<state>Florida</state>
+		<title>Drivers Test</title>
+	</settings>
+	<notes author="Dr. Fitzroy Nembhard" date-created="11/08/2023">
+		<![CDATA[
+	    This quiz was created by Dr. Fitz as part of an assignment for
+	    a course at Florida Tech.
+	    Resources were taken from the following website(s):
+	    * https://driving-tests.org/florida
+
+	    Do not copy, reproduce, redistribute, store in an archival system or repository without permission from Dr. Fitz.
+		]]>
+	</notes>
+	<question>
+		<questionText>This sign warns you</questionText>
+		<questionImage  path="images/soft_shoulder.jpeg" />
+		<answer>to move onto the shoulder at high speed.</answer>
+		<answer correct="true">not to leave the pavement.</answer>
+		<answer>to increase your following distance to six seconds.</answer>
+		<answer>to move onto the shoulder at reduced speed.</answer>
+		<answerComments>
+			This sign warns you about a soft shoulder. The dirt on the side of the road is soft. Don't leave the pavement except in an emergency.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>
+			When you see this sign on a limited-access highway, you should
+		</questionText>
+		<questionImage  path="images/30_mph.jpeg" />
+		<answer>drive at over 30 mph when exiting the highway.</answer>
+		<answer>increase your speed to 30 mph and pass the vehicle in front of you.</answer>
+		<answer correct="true">not exceed 30 mph when exiting the highway.</answer>
+		<answer>drive another 30 miles to the next exit.</answer>
+		<answerComments>
+			This type of sign is found at a highway exit. It states the recommended maximum safe speed (30 mph in this case) under ideal driving conditions. Under poor or hazardous driving conditions, slow down below this recommended speed.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>This sign indicates
+		</questionText>
+		<questionImage  path="images/flagger.jpeg" />
+		<answer correct="true">a flagger ahead.</answer>
+		<answer>a work crew ahead.</answer>
+		<answer>a school zone ahead.</answer>
+		<answer>an emergency vehicle ahead.</answer>
+		<answerComments>
+			This work zone sign indicates a flagger ahead. Flaggers are often located in highway or street work zones. They wear orange vests, shirts, or jackets and use red flags or STOP/SLOW paddles to guide traffic safely through these areas. You must follow the flagger's directions.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>This sign indicates</questionText>
+		<questionImage  path="images/double_curve.jpeg" />
+		<answer>a right turn ahead.</answer>
+		<answer correct="true">a double curve ahead.</answer>
+		<answer>a curve to the right ahead.</answer>
+		<answer>a winding road ahead.</answer>
+		<answerComments>
+			This sign indicates a double curve ahead. The road ahead curves to the right and then to the left. (If there were a triple curve ahead, a winding road sign would be posted instead.) Slow down, keep right, and do not pass.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>The shape of this sign provides advance warning of the</questionText>
+		<questionImage  path="images/no_passing.jpeg" />
+		<answer>No-Zone ahead.</answer>
+		<answer correct="true">no-passing zone ahead.</answer>
+		<answer>merging traffic ahead.</answer>
+		<answer>two-way road ahead.</answer>
+		<answerComments>
+			The No Passing Zone sign is the only type of sign that is pennant shaped. It indicates the start of a no-passing zone for all vehicles traveling in your direction. This sign is posted on the left side of the roadway.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>Which of these pavement markings separates two lanes traveling in the same direction?</questionText>
+		<questionImage  path="images/separated_lanes.jpeg" />
+		<answer>A</answer>
+		<answer>B</answer>
+		<answer>C</answer>
+		<answer correct="true">None of the above</answer>
+		<answerComments>
+			A white line separates two lanes traveling in the same direction. If it's a broken line, you may cross it to pass or change lanes. If it's a solid line, you should usually stay in your lane.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>What does this sign mean?</questionText>
+		<questionImage  path="images/bicycle.jpeg" />
+		<answer correct="true">A bikeway crosses the roadway ahead.</answer>
+		<answer>Bicyclists should not use this lane.</answer>
+		<answer>A no-passing zone for bicyclists is ahead.</answer>
+		<answer>Bicyclists may use the lane only where the sign is posted.</answer>
+		<answerComments>
+			This sign represents a bicycle crossing. This sign warns you in advance that a bikeway crosses the roadway ahead.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>What does this sign mean?</questionText>
+		<questionImage  path="images/restricted_lanes.jpeg" />
+		<answer>The lane is reserved for right turns.</answer>
+		<answer>This lane has toll booths ahead.</answer>
+		<answer>This lane may be used by vehicles in both directions to make left turns.</answer>
+		<answer correct="true">The lane is reserved for certain purposes or certain vehicles.</answer>
+		<answerComments>
+			A diamond-shaped pavement marking indicates that this lane is reserved for certain purposes or certain vehicles. Such lanes are typically reserved for buses or carpool vehicles in rush hour traffic.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>What does this sign mean?</questionText>
+		<questionImage  path="images/dip.jpeg" />
+		<answer>There is a bump in the road ahead.</answer>
+		<answer>There is a detour ahead.</answer>
+		<answer>There is a work zone ahead.</answer>
+		<answer correct="true">There is a low place in the road ahead.</answer>
+		<answerComments>
+			This sign indicates that there is a low place in the road ahead. Slow down for your comfort and to maintain control. Proceed with caution and be ready to stop if the dip is filled with water.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>When you see this sign, you must</questionText>
+		<questionImage  path="images/no_uturn.jpeg" />
+		<answer correct="true">not make a U-turn.</answer>
+		<answer>make a U-turn.</answer>
+		<answer>make a left turn.</answer>
+		<answer>not make a left turn.</answer>
+		<answerComments>
+			On a regulatory sign, a red slash inside a red circle means "no." This sign means that U-turns are prohibited here.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>What does this sign indicate?</questionText>
+		<questionImage  path="images/school_zone.jpeg" />
+		<answer>library ahead</answer>
+		<answer>A pedestrian crosswalk ahead</answer>
+		<answer>A bus stop ahead</answer>
+		<answer correct="true">A school zone ahead</answer>
+		<answerComments>
+			This pentagonal (five-sided) sign warns of a school zone ahead. Schoolchildren may be crossing the road ahead, so slow down and proceed with caution. In Florida, the speed limit in a school zone when schoolchildren are going to or coming from school is 20 mph except where otherwise posted. [FL Stat § 316.1895]
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>What does this sign mean?</questionText>
+		<questionImage  path="images/truck_grade.jpeg" />
+		<answer>Trucks are not allowed on this route.</answer>
+		<answer correct="true">The roadway goes downhill ahead.</answer>
+		<answer>Trucks carrying heavy loads are not allowed.</answer>
+		<answer>Watch for trucks entering the roadway.</answer>
+		<answerComments>
+			This sign warns that there is a steep descent ahead. Check your brakes before starting the descent. Use low gear to reduce wear on your brakes even if your vehicle has an automatic transmission.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>What does this sign mean?</questionText>
+		<questionImage  path="images/narrow_bridge.jpeg" />
+		<answer>A hill ahead</answer>
+		<answer correct="true">A narrow bridge ahead</answer>
+		<answer>A one-way road ahead</answer>
+		<answer>A railroad crossing ahead</answer>
+		<answerComments>
+			This is a warning sign that indicates a narrow bridge or overpass ahead. The bridge or overpass is wide enough to accommodate two lanes of traffic but with very little clearance. Stay in your lane and watch for oncoming traffic.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>When you see this sign, you must</questionText>
+		<questionImage  path="images/winding.jpeg" />
+		<answer>make sharp turns.</answer>
+		<answer>turn left and then right.</answer>
+		<answer>speed up.</answer>
+		<answer correct="true">slow down.</answer>
+		<answerComments>
+			This sign means that the road ahead is slippery when wet. In wet weather, you should slow down, increase your following distance, proceed with caution, and avoid sudden moves. Roads are often at their slipperiest during the first half hour of rain. This type of sign is often found on bridges and overpasses.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>Which of these signs directs you to a hospital?</questionText>
+		<questionImage  path="images/which_hospital.jpeg" />
+		<answer>A</answer>
+		<answer>D</answer>
+		<answer>C</answer>
+		<answer correct="true">B</answer>
+		<answerComments>
+			Service signs have white letters or symbols on a blue background. These signs show you the locations of various services such as gas, food, lodging, and hospitals. A service sign with the letter "H" indicates a hospital ahead.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>What does this sign indicate?</questionText>
+		<questionImage  path="images/plus.jpeg" />
+		<answer>A railroad crossing</answer>
+		<answer>A crosswalk</answer>
+		<answer correct="true">A crossroad</answer>
+		<answer>A hospital</answer>
+		<answerComments>
+			This sign represents a crossroad. Another road crosses the main road ahead. Slow down and look left and right for other traffic.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>This sign warns drivers to</questionText>
+		<questionImage  path="images/keep_right.jpeg" />
+		<answer>keep left on a one-way road.</answer>
+		<answer>keep left at a roundabout.</answer>
+		<answer>enter a one-lane bridge.</answer>
+		<answer correct="true">keep right.</answer>
+		<answerComments>
+			This sign warns drivers that there is a divider or other obstacle ahead. Keep right.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>This sign indicates that</questionText>
+		<questionImage  path="images/rr.jpeg" />
+		<answer correct="true">there is a railroad crossing ahead.</answer>
+		<answer>there is a highway junction ahead.</answer>
+		<answer>the road ahead is closed.</answer>
+		<answer>the road ahead is under repair.</answer>
+		<answerComments>
+			This sign gives advance warning of a railroad crossing ahead. (At the approach to some crossings, there may also be pavement markings consisting of an X and the letters "RR.") Slow down and look and listen for warning signals and approaching trains. Prepare to stop if necessary. Don't try to cross if a train is approaching.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>What does this sign indicate?</questionText>
+		<questionImage  path="images/deer.jpeg" />
+		<answer correct="true">Deer crossing</answer>
+		<answer>Cattle crossing</answer>
+		<answer>Farm ahead</answer>
+		<answer>Zoo ahead</answer>
+		<answerComments>
+			This is an animal crossing sign. The animal pictured on the sign (a deer in this case) is common in this area. Watch for these animals crossing the road, particularly at dawn and dusk. Deer, elk, and similar wildlife travel in herds. If you see one, be alert for others. A collision with a large animal may kill the animal, damage your vehicle, and possibly even injure someone in your vehicle.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>This sign indicates</questionText>
+		<questionImage  path="images/two_way.jpeg" />
+		<answer>the beginning of a one-way road.</answer>
+		<answer>merging traffic ahead.</answer>
+		<answer>a divided highway ahead.</answer>
+		<answer correct="true">the beginning of a two-way road.</answer>
+		<answerComments>
+			This sign warns that the one-way roadway on which you are driving will become a two-way undivided roadway. Keep right and watch for oncoming traffic.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>Under Florida law, you must dim your headlights to low beam whenever you are within ________ of an oncoming vehicle.</questionText>
+		<answer correct="true">500 feet</answer>
+		<answer>350 feet</answer>
+		<answer>200 feet</answer>
+		<answer>450 feet</answer>
+		<answerComments>
+			Under Florida law, you must dim your headlights to low beam whenever you are within 500 feet of an oncoming vehicle or within 300 feet of a vehicle you are following.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>The primary traveling aids for a blind person include</questionText>
+		<answer>a red cane and a trained guide cat.</answer>
+		<answer correct="true">a white cane and a trained guide dog.</answer>
+		<answer>a red cane and a trained guide dog.</answer>
+		<answer>a white cane and a wheelchair.</answer>
+		<answerComments>
+			The primary traveling aids for a person who is blind are often a white cane and a trained guide dog. In Florida, you must stop and yield the right-of-way to blind pedestrians.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>In a roundabout, you should drive in</questionText>
+		<questionImage  path="images/round_about.jpeg" />
+		<answer>a clockwise direction.</answer>
+		<answer correct="true">a counterclockwise direction.</answer>
+		<answer>the direction of the oncoming vehicles.</answer>
+		<answer>any direction.</answer>
+		<answerComments>
+			A roundabout is a circular intersection in which traffic circulates counterclockwise around a central island.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>The correct hand signal to indicate a right turn is</questionText>
+		<answer>hand and arm extended backward.</answer>
+		<answer>hand and arm extended outward.</answer>
+		<answer correct="true">hand and arm extended upward.</answer>
+		<answer>hand and arm extended downward.</answer>
+		<answerComments>You must use hand signals or directional signals to show that you are about to turn, change lanes, or overtake a vehicle. The correct hand signal to indicate a right turn is hand and arm extended upward.</answerComments>
+	</question>
+
+	<question>
+		<questionText>In Florida, which of the following statements is FALSE?</questionText>
+		<answer>When you back up, place your right arm on the back of the seat and turn around to look directly through the rear window.</answer>
+		<answer correct="true">Very slow driving is considered safe and prevents many accidents on the highway.</answer>
+		<answer>People who throw trash on public streets and highways can be fined at least $100.</answer>
+		<answer>If you collide with an unoccupied vehicle, you must immediately notify law enforcement.</answer>
+		<answerComments>
+			In Florida, littering is a crime punishable by a fine of at least $100. The court may also require you to pick up litter along roadways. When you hit a vehicle, you must immediately report the crash to the proper law enforcement agency. When you back up, place your right arm on the back of the seat and turn around for a clear rear view. Driving too slowly is also against the law. Always try to keep up with traffic as long as you do not exceed the speed limit.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>Vehicle license plates and registrations must be renewed</questionText>
+		<answer>(a) every year.</answer>
+		<answer>(b) every two years.</answer>
+		<answer correct="true">either (a) or (b)</answer>
+		<answer>every three years.</answer>
+		<answerComments>
+			Vehicle license plates and registrations must be renewed each year or biennially, on or before the birthday of the first owner listed on the registration form.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>The driver of a car being passed should _________ until the pass is complete.</questionText>
+		<answer>increase speed</answer>
+		<answer correct="true">not increase speed</answer>
+		<answer>move to the left</answer>
+		<answer>stop</answer>
+		<answerComments>
+			The driver of the car being passed should not change lanes or increase speed until the pass is complete.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>When you are approaching a drawbridge with a red signal, you must</questionText>
+		<answer>slow down and look for the signal.</answer>
+		<answer correct="true">come to a complete stop.</answer>
+		<answer>make a U-turn.</answer>
+		<answer>proceed with caution and watch for the traffic gates.</answer>
+		<answerComments>
+			When you are approaching a drawbridge with a red signal, you must come to a complete stop at the marked stop line. A red signal means that the bridge is in operation and the roadway is closed to all pedestrian and motor vehicle traffic.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>A broken yellow line on a pavement</questionText>
+		<answer>marks the right edge of the pavement.</answer>
+		<answer correct="true">separates lanes of traffic moving in opposite directions.</answer>
+		<answer>marks the left edge of the pavement.</answer>
+		<answer>separates lanes of traffic moving in the same direction.</answer>
+		<answerComments>
+			A yellow line separates lanes of traffic moving in opposite directions. If it's a broken yellow line, you may cross this line temporarily when it is safe to do so. If it's a solid yellow line, you may not cross the line except to make a left turn across it.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>To enter a main road from a driveway, an alley, or the roadside, you must</questionText>
+		<questionImage  path="images/entering_main_road.jpeg" />
+		<answer>reduce your speed and enter the main road.</answer>
+		<answer correct="true">yield to vehicles already on the main road.</answer>
+		<answer>not make a right turn.</answer>
+		<answer>enter the main road at increased speed.</answer>
+		<answerComments>
+			Drivers entering a road from a driveway, an alley, or the roadside must yield to vehicles already on the main road and to bicyclists and pedestrians on the sidewalk, shared-use path, or bike lanes.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>You're driving a vehicle without antilock brakes (ABS) on a slippery wet road. What is the best way to stop your vehicle?</questionText>
+		<answer>Apply the brake pedal firmly</answer>
+		<answer>Shift into neutral</answer>
+		<answer correct="true">Pump the brakes</answer>
+		<answer>Take your foot off the accelerator</answer>
+		<answerComments>
+			Drivers with conventional brakes must pump the brakes in order to stop in an emergency situation where traction is lost and the vehicle slides. Note: Do NOT do this if your vehicle has ABS. ABS will do its own brake pumping to keep the wheels from locking, so you can apply the brake pedal firmly until the vehicle stops. If you pump the brakes, you'll just deactivate the ABS.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>To avoid striking the vehicle in front of you, maintain at least a _________ following distance under normal weather and traffic conditions.</questionText>
+		<answer>six-second</answer>
+		<answer>two-second</answer>
+		<answer correct="true">four-second</answer>
+		<answer>one-second</answer>
+		<answerComments>
+			The most frequent cause of rear-end collisions is tailgating (following the vehicle in front of you too closely). To help avoid such collisions, maintain at least a four-second following distance behind the vehicle in front of you. Under poor driving conditions, increase your following distance even more.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>The danger areas around trucks and buses where crashes are more likely to occur are called</questionText>
+		<questionImage  path="images/bus_highway.jpeg" />
+		<answer>no-passing zones.</answer>
+		<answer>empty spots.</answer>
+		<answer>round spots.</answer>
+		<answer correct="true">No-Zones.</answer>
+		<answerComments>
+			Don't hang out in a No-Zone! No-Zones are large areas around trucks, buses, and other large vehicles in which cars may disappear into blind spots or get so close that they restrict the truck driver's ability to stop or maneuver safely. No-Zones exist to the front, rear, and sides of the vehicle. It is impossible to completely avoid a large vehicle's No-Zones. However, do not remain in a No-Zone any longer than necessary to safely pass the vehicle. And never tailgate a truck.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>When two cars enter an open intersection at about the same time,</questionText>
+		<answer>both cars can move at the same time.</answer>
+		<answer>the driver who signals first has the right-of-way.</answer>
+		<answer correct="true">the driver on the left must yield to the car on the right.</answer>
+		<answer>the driver on the right must yield to the car on the left.</answer>
+		<answerComments>
+			An open intersection (also known as an uncontrolled intersection) is one without traffic signs or signals. When two vehicles enter an open intersection at about the same time, the driver on the left must yield to the vehicle on the right.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>On a two-way roadway with a center lane, drivers from either direction can _________ from the center lane.</questionText>
+		<answer>make frequent stops</answer>
+		<answer correct="true">make left turns</answer>
+		<answer>back up</answer>
+		<answer>make right turns</answer>
+		<answerComments>
+			A shared center lane (also known as a two-way left-turn lane) is reserved for vehicles traveling in either direction to make left turns (and U-turns where permitted). Use caution when entering this lane because vehicles traveling in the opposite direction may also be using it.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>The Florida law exempts all of the following from the seat belt requirements except</questionText>
+		<answer>an employee delivering newspapers.</answer>
+		<answer correct="true">passenger cars manufactured after 1968.</answer>
+		<answer>farm equipment.</answer>
+		<answer>buses.</answer>
+		<answerComments>
+			Florida's seat belt law applies to passenger cars manufactured since the 1968 model year. The law exempts the following from the seat belt requirements: a person who is certified by a doctor as unable to wear a seat belt, an employee of a newspaper home delivery service who is delivering newspapers, an employee of a waste collection service in the process of collecting waste, buses, farm equipment, school buses purchased new before 31 December 2000, the living quarters of recreational vehicles, and trucks weighing more than 26,000 pounds. [FL Stat § 316.614]
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>In Florida, the speed limit in business or residential areas is _______ except where otherwise posted.</questionText>
+		<answer>40 mph</answer>
+		<answer>45 mph</answer>
+		<answer correct="true">30 mph</answer>
+		<answer>35 mph</answer>
+		<answerComments>
+			In Florida, the speed limit in business or residential areas is 30 mph except where otherwise posted. The speed limit on rural roads is 55 mph except where otherwise posted.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>When you're riding a bicycle on a one-way street with two or more traffic lanes, you may ride</questionText>
+		<answer>(a) on the left-hand side of the roadway.</answer>
+		<answer>(b) near the right edge of the roadway.</answer>
+		<answer correct="true">(a) or (b)</answer>
+		<answer>(c) in the center of the roadway.</answer>
+		<answerComments>
+			On most roads, you must ride a bicycle near the right edge of the roadway. However, on a one-way street with at least two lanes, you may also ride on the left side of the roadway. [FL Stat § 316.2065]
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>You're driving on an interstate highway. If you miss your exit, what should you do?</questionText>
+		<questionImage  path="images/missed_exit.jpeg" />
+		<answer correct="true">Continue to the next exit.</answer>
+		<answer>Make a U-turn to reach your exit.</answer>
+		<answer>Stop and ask for help.</answer>
+		<answer>Back up to reach your exit.</answer>
+		<answerComments>
+			If you miss your exit on a limited-access highway, don't stop, back up, or try to turn around. Doing so greatly increases the likelihood of a collision. Instead, take the next exit and reenter the freeway to return to the exit you missed.
+		</answerComments>
+	</question>
+
+	<question>
+		<questionText>What does a flashing yellow arrow signal mean?</questionText>
+		<questionImage  path="images/flashing_yellow.jpeg" />
+		<answer correct="true">You may turn in the direction of the arrow but only after you yield to pedestrians and oncoming vehicles.</answer>
+		<answer>You may turn in the direction of the arrow; oncoming traffic is stopped.</answer>
+		<answer>The yellow arrow is about to turn red; you must not turn in the direction of the arrow.</answer>
+		<answer>You must stop immediately.</answer>
+		<answerComments>
+			A flashing yellow arrow means you may proceed with caution in the direction of the arrow after you yield to pedestrians and oncoming vehicles. Oncoming traffic has a green light here.
+		</answerComments>
+	</question>
+</quiz>

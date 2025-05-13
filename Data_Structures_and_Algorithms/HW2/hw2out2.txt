@@ -1,0 +1,15 @@
+PackingStation 5 10 0.00
+Apple 7 10 2.00
+BlackBerry 9 8 2.83
+Google 10 7 1.41
+HTC 10 5 2.00
+Huawei 10 3 2.00
+LG 7 0 4.24
+Motorola 5 0 2.00
+Nokia 3 0 2.00
+OnePlus 0 3 4.24
+Samsung 0 5 2.00
+Sony 0 7 2.00
+Xiaomi 3 10 4.24
+PackingStation 5 10 2.00
+Total Distance: 32.97

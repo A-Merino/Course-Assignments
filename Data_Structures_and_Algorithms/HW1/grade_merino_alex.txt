@@ -1,0 +1,33 @@
+Assignment: HW1
+
+* Rubric:
+
++-------------------------------+-----+
+| Logic (50)                    |  35 |
+| Test Cases (30)               |  15 |
+| Compilation/Runtime (10)      |  10 |
+| Documentation (10)            |  10 |
++-------------------------------+-----+
+| Total (100)                   |  70 |
+| Number of days late           |   0 |
+| Total with late penalty       |  70 |
++-------------------------------+-----+
+| Group Help improvement        |   0 |
+| # of days late for Group Help |   0 |
+| Improvement with late penalty |   0 |
++-------------------------------+-----+
+| Final Total (100)             |  70 |
++-------------------------------+-----+
+
+* Comments: 
+
+Logic: Orders are not processed properly, when earlier orders take longer to complete than later orders.
+       Completion times are calculated incorrectly.
+       Multiple instances of the same worker can appear in the worker list.
+
+Test Cases: Incorrect output due to above issues.
+
+Compilation/Runtime: good
+
+Documentation: good
+

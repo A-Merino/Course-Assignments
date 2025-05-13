@@ -1,0 +1,22 @@
+PrintSkipList
+(S0) empty
+AddActivity 0101 Reboot
+AddActivity 0107 AllServersActive
+AddActivity 0118 LoginRequestFromUser0101
+AddActivity 0124 LoginRequestFromUser0000
+DisplayAllActivities 0101:Reboot 0107:AllServersActive 0118:LoginRequestFromUser0101 0124:LoginRequestFromUser0000
+DisplayActivity 0124 LoginRequestFromUser0000
+DeleteActivity 0124 LoginRequestFromUser0000
+DisplayActivitiesFromStartTime 0101 0101:Reboot 0107:AllServersActive 0118:LoginRequestFromUser0101
+AddActivity 0120 AdminUserSessionStarted
+AddActivity 0220 AdminUserSessionEnded
+DisplayActivitiesBetweenTimes 0105 0218 0107:AllServersActive 0118:LoginRequestFromUser0101 0120:AdminUserSessionStarted
+AddActivity 0200 LoginRequestFromUser10FA
+AddActivity 0313 LogoutRequestFromUser0000
+DisplayActivitiesToEndTime 0401 0101:Reboot 0107:AllServersActive 0118:LoginRequestFromUser0101 0120:AdminUserSessionStarted 0200:LoginRequestFromUser10FA 0220:AdminUserSessionEnded 0313:LogoutRequestFromUser0000
+PrintSkipList
+(S4) empty
+(S3) 0313:LogoutRequestFromUser0000
+(S2) 0313:LogoutRequestFromUser0000
+(S1) 0107:AllServersActive 0220:AdminUserSessionEnded 0313:LogoutRequestFromUser0000
+(S0) 0101:Reboot 0107:AllServersActive 0118:LoginRequestFromUser0101 0120:AdminUserSessionStarted 0200:LoginRequestFromUser10FA 0220:AdminUserSessionEnded 0313:LogoutRequestFromUser0000

@@ -1,0 +1,31 @@
+AddActivity 0630 Alarm
+AddActivity 0730 DriveToAirport
+AddActivity 0815 TerminalB
+AddActivity 1930 Arrival
+AddActivity 2115 PickUpByDave
+AddActivity 2130 ArriveHome
+PrintSkipList
+DisplayAllActivities
+AddActivity 0900 SecurityCheck
+AddActivity 1030 Boarding
+PrintSkipList
+DeleteActivity 1030
+DeleteActivity 0815
+AddActivity 0815 TerminalC
+AddActivity 1045 Boarding
+PrintSkipList
+AddActivity 1100 Departure
+AddActivity 0645 Shower
+AddActivity 0700 Breakfast
+AddActivity 0715 CheckoutFromHotel
+AddActivity 0830 Checkin
+AddActivity 0835 LuggageDropOff
+AddActivity 2000 BorderSecurity
+AddActivity 2000 LuggagePickUp
+AddActivity 2100 LuggagePickUp
+PrintSkipList
+DisplayActivity 1930
+DisplayActivitiesBetweenTimes 0600 0800
+DisplayActivitiesFromStartTime 2000
+DisplayActivitiesToEndTime 0615
+DisplayActivity 2215

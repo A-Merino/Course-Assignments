@@ -1,0 +1,8 @@
+AddFriendship Gareth Donny
+RemoveFriendship Bev Donny
+RemoveFriendship Max Oscar
+WantToBefriend Pippa Oscar
+AddFriendship Oscar Lily
+WantToBefriend Pippa Oscar
+AddFriendship Oscar Pippa
+WantToBefriend Pippa Kevin

@@ -1,0 +1,6 @@
+PackingStation 10 10 0.00
+Books 15 4 7.81
+Electronics 5 5 10.05
+SportsEquipment 3 20 15.13
+PackingStation 10 10 12.21
+Total Distance: 45.20

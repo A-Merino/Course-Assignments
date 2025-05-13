@@ -1,0 +1,13 @@
+UpdateMinimumAcceptablePrice 0700 19.99
+EnterBid 0745 Finnegan 15.00 10
+EnterBid 0752 Wake 18.00 2
+SellOneItem 0800 HighestBiddingPriceIsTooLow
+EnterBid 0815 James 20.00 1
+EnterBid 0827 Joyce 18.50 2
+DisplayHighestBid 0830 James 0815 20.00 1
+SellOneItem 0835 James 20.00
+UpdateMinimumAcceptablePrice 0900 16.99
+SellOneItem 0930 Joyce 18.50
+SellOneItem 0945 Joyce 18.50
+SellOneItem 1000 Wake 18.00
+DisplayHighestBid 1030 Wake 0752 18.00 1

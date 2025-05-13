@@ -1,0 +1,50 @@
+AddActivity 0630 Alarm
+AddActivity 0730 DriveToAirport
+AddActivity 0815 TerminalB
+AddActivity 1930 Arrival
+AddActivity 2115 PickUpByDave
+AddActivity 2130 ArriveHome
+PrintSkipList
+(S3) empty
+(S2) 1930:Arrival
+(S1) 0730:DriveToAirport 1930:Arrival 2130:ArriveHome
+(S0) 0630:Alarm 0730:DriveToAirport 0815:TerminalB 1930:Arrival 2115:PickUpByDave 2130:ArriveHome
+DisplayAllActivities 0630:Alarm 0730:DriveToAirport 0815:TerminalB 1930:Arrival 2115:PickUpByDave 2130:ArriveHome
+AddActivity 0900 SecurityCheck
+AddActivity 1030 Boarding
+PrintSkipList
+(S4) empty
+(S3) 1030:Boarding
+(S2) 1030:Boarding 1930:Arrival
+(S1) 0730:DriveToAirport 1030:Boarding 1930:Arrival 2130:ArriveHome
+(S0) 0630:Alarm 0730:DriveToAirport 0815:TerminalB 0900:SecurityCheck 1030:Boarding 1930:Arrival 2115:PickUpByDave 2130:ArriveHome
+DeleteActivity 1030 Boarding
+DeleteActivity 0815 TerminalB
+AddActivity 0815 TerminalC
+AddActivity 1045 Boarding
+PrintSkipList
+(S3) empty
+(S2) 1930:Arrival
+(S1) 0730:DriveToAirport 1045:Boarding 1930:Arrival 2130:ArriveHome
+(S0) 0630:Alarm 0730:DriveToAirport 0815:TerminalC 0900:SecurityCheck 1045:Boarding 1930:Arrival 2115:PickUpByDave 2130:ArriveHome
+AddActivity 1100 Departure
+AddActivity 0645 Shower
+AddActivity 0700 Breakfast
+AddActivity 0715 CheckoutFromHotel
+AddActivity 0830 Checkin
+AddActivity 0835 LuggageDropOff
+AddActivity 2000 BorderSecurity
+AddActivity 2000 LuggagePickUp existingTimeError
+AddActivity 2100 LuggagePickUp
+PrintSkipList
+(S5) empty
+(S4) 0835:LuggageDropOff
+(S3) 0835:LuggageDropOff
+(S2) 0645:Shower 0835:LuggageDropOff 1930:Arrival
+(S1) 0645:Shower 0715:CheckoutFromHotel 0730:DriveToAirport 0835:LuggageDropOff 1045:Boarding 1930:Arrival 2100:LuggagePickUp 2130:ArriveHome
+(S0) 0630:Alarm 0645:Shower 0700:Breakfast 0715:CheckoutFromHotel 0730:DriveToAirport 0815:TerminalC 0830:Checkin 0835:LuggageDropOff 0900:SecurityCheck 1045:Boarding 1100:Departure 1930:Arrival 2000:BorderSecurity 2100:LuggagePickUp 2115:PickUpByDave 2130:ArriveHome
+DisplayActivity 1930 Arrival
+DisplayActivitiesBetweenTimes 0600 0800 0630:Alarm 0645:Shower 0700:Breakfast 0715:CheckoutFromHotel 0730:DriveToAirport
+DisplayActivitiesFromStartTime 2000 2000:BorderSecurity 2100:LuggagePickUp 2115:PickUpByDave 2130:ArriveHome
+DisplayActivitiesToEndTime 0615 none
+DisplayActivity 2215 none

@@ -1,0 +1,32 @@
+Assignment: HW5
+
+* Rubric:
+
++-------------------------------+-----+
+| Logic (50)                    |  35 |
+| Test Cases (30)               |  20 |
+| Compilation/Runtime (10)      |   7 |
+| Documentation (10)            |  10 |
++-------------------------------+-----+
+| Total (100)                   |  72 |
+| Number of days late           |   0 |
+| Total with late penalty       |  72 |
++-------------------------------+-----+
+| Group Help improvement        |   0 |
+| # of days late for Group Help |   0 |
+| Improvement with late penalty |   0 |
++-------------------------------+-----+
+| Final Total (100)             |  72 |
++-------------------------------+-----+
+
+* Comments: 
+
+Logic: Displaying activities is not done correctly, items at the edges cause issues. Results in nullpointer errors.
+
+
+Test Cases: Incorrect output due to above issues.
+
+Compilation/Runtime: Nullpointer exceptions in some cases due to Display actions.
+
+Documentation: good
+

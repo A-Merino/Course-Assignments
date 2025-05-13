@@ -1,0 +1,14 @@
+13
+PackingStation 5 10
+Motorola 5 0
+BlackBerry 9 8
+Google 10 7
+Xiaomi 3 10
+Huawei 10 3
+LG 7 0
+Samsung 0 5
+Nokia 3 0
+Apple 7 10
+OnePlus 0 3
+HTC 10 5
+Sony 0 7

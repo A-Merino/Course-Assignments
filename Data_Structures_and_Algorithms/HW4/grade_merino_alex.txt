@@ -1,0 +1,31 @@
+Assignment: HW4
+
+* Rubric:
+
++-------------------------------+-----+
+| Logic (50)                    |  50 |
+| Test Cases (30)               |  30 |
+| Compilation/Runtime (10)      |  10 |
+| Documentation (10)            |  10 |
++-------------------------------+-----+
+| Total (100)                   | 100 |
+| Number of days late           |   0 |
+| Total with late penalty       | 100 |
++-------------------------------+-----+
+| Group Help improvement        |   0 |
+| # of days late for Group Help |   0 |
+| Improvement with late penalty |   0 |
++-------------------------------+-----+
+| Final Total (100)             | 100 |
++-------------------------------+-----+
+
+* Comments: 
+
+Logic: ok
+
+Test Cases: ok
+
+Compilation/Runtime: good
+
+Documentation: good
+

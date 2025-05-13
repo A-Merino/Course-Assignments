@@ -1,0 +1,22 @@
+UpdateMinimumAcceptablePrice 1900 2000.00
+SellOneItem 1901 NoBids
+EnterBid 1911 Abram 1000.00 1
+EnterBid 1915 Laurie 2200.00 1
+EnterBid 1920 Kaze 2500.00 2
+SellOneItem 1925 Kaze 2500.00
+DisplayHighestBid 1930 Kaze 1920 2500.00 1
+SellOneItem 1933 Kaze 2500.00
+SellOneItem 1935 Laurie 2200.00
+DisplayHighestBid 1940 Abram 1911 1000.00 1
+UpdateMinimumAcceptablePrice 1950 999.99
+SellOneItem 1951 Abram 1000.00
+DisplayHighestBid 2000
+UpdateMinimumAcceptablePrice 2005 750.00
+EnterBid 2035 Oga 800.00 2
+EnterBid 2036 Susan 800.00 1
+EnterBid 2040 June 800.50 1
+DisplayHighestBid 2045 June 2040 800.50 1
+SellOneItem 2046 June 800.50
+SellOneItem 2047 Oga 800.00
+SellOneItem 2048 Oga 800.00
+SellOneItem 2049 Susan 800.00

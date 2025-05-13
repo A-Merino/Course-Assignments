@@ -1,0 +1,13 @@
+AddFriendship Ben Felix
+AddFriendship Kora Ben
+RemoveFriendship Fabrice Cole
+RemoveFriendship Laura Fabrice
+WantToBefriend Ben Laura
+-Length of shortest path: 2
+-Your mutual friend is Felix.
+-Path: Ben, Felix, Laura
+AddFriendship Fabrice Ben
+WantToBefriend Fabrice Cole
+-Length of shortest path: 4
+-Your intermediate friend is Ben.
+-Path: Fabrice, Ben, Felix, Laura, Cole
